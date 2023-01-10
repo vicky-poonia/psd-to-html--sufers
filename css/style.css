@@ -1,0 +1,107 @@
+*, ::before, ::after{ margin: 0; box-sizing: border-box; }
+a{ text-decoration: none;}
+img{ vertical-align: bottom;}
+button{ cursor: pointer;}
+:disabled{ cursor: not-allowed;}
+label{  display: inline-block;}
+html{ scroll-behavior: smooth;}
+
+.ral{ font-family: 'Raleway', sans-serif;}
+.play{ font-family: 'Playfair Display', serif;}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 15px;
+}
+
+.row{ margin: 0 -15px; display: flex; flex-flow: row wrap;}
+[class^="col-"]{ padding: 0 15px; flex: 1 1 auto;}
+.col-1{ flex-basis: 8.33%;}
+.col-2{ flex-basis: 16.66%;}
+.col-3{ flex-basis: 25%;}
+.col-4{ flex-basis: 33.33%; max-width: 33.33%;}
+.col-5{ flex-basis: 41.66%;}
+.col-6{ flex-basis: 50%;}
+.col-7{ flex-basis: 58.33%;}
+.col-8{ flex-basis: 66.66%;}
+.col-9{ flex-basis: 75%;}
+.col-10{ flex-basis: 83.33%;}
+.col-11{ flex-basis: 91.66%;}
+.col-12{ flex-basis: 100%;}
+
+/* layout */
+.wrap-1{ background: url(../img/bg1.jpg) no-repeat center top/cover #fff; color: #000; min-height: 100vh; }
+.wrap-1 header{ padding: 30px 0;}
+.wrap-1 h1{ font-size: 34px; }
+.wrap-1 h1 a{ color: inherit;}
+.wrap-1 nav{ }
+.wrap-1 nav ul{ list-style: none; padding: 0; display: flex; }
+.wrap-1 nav ul li{ margin: 0 3px;  }
+.wrap-1 nav ul li a{ display: block; color: inherit; font-size: 14px; padding: 3.5px 10px; text-transform: uppercase; }
+.wrap-1 nav ul li a:hover{ background: #00b0ff; color: #fff;}
+.social{  list-style: none; padding: 0; display: flex; justify-content:right ; }
+.social li{ margin-left: 10px; }
+.social li a{ display: block; width: 36px; line-height: 36px; background: #000; color: #fff; border-radius: 50%; text-align: center;  }
+.align-center{ align-items: center;}
+
+.banner{ text-align: center; padding: 120px 0;}
+.large{ font-size: 50px;}
+.caption{ font-size: 24px; color: #fff;}
+
+.boards{ padding: 0 70px; background: linear-gradient(135deg,#00d2ff 33%, #fff 33%); position: relative; margin-bottom: 290px; box-shadow: 0 0 30px rgba(0, 0, 0, 0.38);}
+.pics{ position: relative;}
+.thumbs{ position: absolute; right: 0; top: 50%; transform: translateY(-50%); }
+.thumbs ul{ list-style: none; padding: 0; }
+.thumbs ul li{ border: 3px solid #ccc; margin-bottom: 3px; cursor: pointer;}
+.thumbs ul li.active{ border: 3px solid #00b0ff;}
+.thumbs ul li img{}
+.right{ padding: 50px 0;}
+.tabs{}
+.tabs ul{ list-style-type: none; padding: 0; display: flex;}
+.tabs ul li{ margin-right: 10px;}
+.buy{ display: inline-block; width: 137px; line-height: 44px; background: #00b0ff; color: #fff; text-align: center;}
+.buy+p{ margin-top: 20px;}
+.buy+p a{ color: #00b0ff};
+
+.ratings{ color: #f2d800;}
+.tabs{ margin: 30px 0;}
+.tabs ul{ margin-bottom: 10px; }
+.tabs ul li{ }
+.tabs ul li a{ border-bottom: 3px solid; color:#a0a0a0; }
+.tabs ul li a.active{ border-bottom: 3px solid #00b0ff; color: #000; }
+.controls{ position: absolute; right: -38px; top: 50px;}
+.controls button{ width: 38px; height: 38px; border: none; background: #f2d800; color: #fff; font-size: 20px; }
+.pager{ background: #000; width: 53px; line-height: 38px; color: #fff; position: absolute; right: 0; top: 88px; text-align: center;}
+
+.wrap-2{ background: url(../img/bg2.jpg) no-repeat center top; padding: 200px 0;}
+.about{ background: #fff; padding: 100px; position: relative;}
+.about::before{
+    content: '';
+    display: block;
+    right: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    background: #fff;
+}
+.about a{ color: #00b0ff; text-decoration: underline;}
+.wrap-2 video{ margin-top: 160px;}
+.t-center{ text-align: center; }
+
+.wrap-3{ }
+.team{ padding:  100px; position: relative; display: flex;  }
+.card{ width: 260px; height: 278px; box-shadow: 0 0 20px rgba(0, 0, 0, .2); text-align: center; padding: 30px 0; color: #8c8c8c; position: relative; background: #fff;}
+.card:hover, .card:hover h3{  background: #00b0ff; color: #fff;}
+.card img{ border-radius: 50%; margin-bottom: 10px;}
+.wave{ letter-spacing: -3px;}
+.card h3{ color: #00b0ff;}
+.card:nth-child(even){ top: 30px; z-index: 1; margin: 0 -20px; }
+
+.fb{ width: 440px; height: 523; background: linear-gradient(#385490 50%, #fff 50%); text-align: center; color: #fff;}
+
+.wrap-6{ background: #000; color: #fff; height: 500px;}
+._2lqg{ display: none;}
